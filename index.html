@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body style="background-color: grey; display: flex; flex-direction: column; align-items: center;">
+    <nav style="display: flex; justify-content: center; background-color: black; color: white; width: 100%; padding: 20px;">
+        <a style="color: white; text-decoration: none;" href="/" area-current="page">HOME</a>
+    </nav>
+    <form Style="background-color:lightcyan; padding: 20px; border: solid; border-color: black; border-radius: 30px; display: flex; flex-direction: column; align-items: center; margin-top: 160px; width: 400px;">
+        <h1>CALCULATE YOUR BMI.</h1>
+        <h3>Enter your Height.</h3>
+        <input id="height" class="text" type="text">
+        <h3>Enter your Weight.</h3>
+        <input id="weight" class="text" type="text">
+        <br>
+        <button class="button">Calculate</button>
+        <br>
+        <div id="result"></div>
+        <br>
+        <div id="notice"></div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
